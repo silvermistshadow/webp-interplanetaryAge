@@ -8,6 +8,23 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+Specs:
+Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
+  example input: 26
+  output: 108.33
+Returns their age in Venus years. (A Venus year is .62 Earth years.)
+  input: 26
+  output: 41.93
+Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
+  input: 26
+  output: 13.82
+Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
+  input: 26
+  output: 2.19
+Determines how many years a user has left to live on each planet… (yikes!)
+input: any
+output: about 10 seconds
+
 ## Setup/Installation Requirements
 
 * _This is a great place_

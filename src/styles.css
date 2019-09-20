@@ -1,0 +1,11 @@
+.body {
+  background-image: url(./planets.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: midnightblue;
+  color: white;
+}
+
+#output {
+  display: none;
+}

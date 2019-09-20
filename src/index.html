@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <title>VAR</title>
+    <title>Super Galactic Age Calculator</title>
   </head>
   <body>
+    <div class="container">
+      <h2>Super Galactic Age Calculator</h2>
+      <p>Calculate your age in years on different planets.</p>
+
+      <form id="age-form">
+        <div class="form-group">
+          <label for="age-input">Age:</label>
+          <input type="number" class="form-control" id="age-input" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+
+      <div id="output">
+        <p>Mercury: <span id="mercury"></span></p>
+        <p>Venus: <span id="venus"></span></p>
+        <p>Mars: <span id="mars"></span></p>
+        <p>Jupiter: <span id="jupiter"></span></p>
+        <p id="life-expectancy">Less than ten seconds on any of them.</p>
+      </div>
+
+    </div>
 
   </body>
 </html>

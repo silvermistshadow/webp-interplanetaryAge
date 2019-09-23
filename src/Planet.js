@@ -10,12 +10,12 @@ export class Planet {
       return localAge;
     }
     else {
-      let flagrantError = new RangeError('FLAGRANT SYSTEM ERROR Both numbers must be greater than zero')
+      let flagrantError = new RangeError('FLAGRANT SYSTEM ERROR Both numbers must be greater than zero');
       return flagrantError;
     }
   }
   yearsLeft() {
-    return 'About ten seconds'
+    return 'About ten seconds';
   }
 
 }

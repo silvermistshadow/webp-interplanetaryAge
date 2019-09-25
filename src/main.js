@@ -4,10 +4,10 @@ import  './planets.jpg';
 import $ from 'jquery';
 
 $(document).ready(function() {
-  let mercury = new Planet(0.24);
-  let venus = new Planet(0.62);
-  let mars = new Planet(1.88);
-  let jupiter = new Planet(11.86);
+  const mercury = new Planet(0.24);
+  const venus = new Planet(0.62);
+  const mars = new Planet(1.88);
+  const jupiter = new Planet(11.86);
   let planets = [mercury, venus, mars, jupiter];
   $("#age-form").submit(function(event) {
     event.preventDefault();
